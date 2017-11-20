@@ -1,0 +1,103 @@
+body {
+    font-size: 15px;
+    color: #C0C5CD;
+    font-family: sans-serif;
+}
+
+.title { 
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;  
+    margin-bottom: 25px;
+}
+
+table{
+    width: 450px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+tr {
+    border-bottom: 1px solid #9e26d8;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 3px;
+    font-weight: 100; 
+}
+
+form {
+    width: 420px;
+    margin: 5px auto;
+    text-align: left;
+    padding: 10px 20px 10px 20px; 
+    border: 1px solid #9e26d8; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+    padding-bottom: 3px;
+    font-family: sans-serif;
+    
+}
+.input-group input {
+    height: 30px;
+    width: 400px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fee655;
+}
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #88ffd1;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #6efcff;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #6efcff;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #ffd2d2;
+}
+
+.dcnx {
+    text-decoration: none;
+    color: #88ffd1;
+    display: block;
+    text-align: center;
+}
+
+.dcnx:hover {
+    color: #6efcff;
+}
